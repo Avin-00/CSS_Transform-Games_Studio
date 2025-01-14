@@ -157,6 +157,11 @@ nav {
     margin-bottom: 40px;
     font-size: 36px;
 }
+.card_img{
+    height: 50px;
+    width: 50px;
+    
+}
 
 .about-grid {
     display: grid;
@@ -166,12 +171,13 @@ nav {
 
 .about-card {
     background-image: linear-gradient(to right, #ee3f3f 0%, #582016 100%);
+    height: 150px;
+    width: 150px;
     
-    padding: 30px;
     border-radius: 5px;
     text-align: center;
     transition: transform 0.3s ease;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 10px 6px 30px black;
 }
 
@@ -244,8 +250,9 @@ transform: rotateY(180deg);
     position: relative;
 }
 .card_img{
-    height: 300px;
-    width: 100%;
+    height: 140px;
+    width: 100px;
+    
 }
 .theback img{
 width: 100%;
